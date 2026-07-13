@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:wght@400;700;800;900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-opensans: "Open Sans", sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-anton: "Anton", sans-serif;
+}
+
+/* Artistic Flair & Neo-Brutalist Utilities */
+.artistic-border-black {
+  border: 3px solid #000000;
+}
+
+.artistic-border-yellow {
+  border: 3px solid #FFD700;
+}
+
+.artistic-shadow-black {
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.artistic-shadow-yellow {
+  box-shadow: 6px 6px 0px 0px #FFD700;
+}
+
+.artistic-shadow-green {
+  box-shadow: 6px 6px 0px 0px #25D366;
+}
+
+.artistic-shadow-red {
+  box-shadow: 6px 6px 0px 0px #FF0000;
+}
+
+.artistic-card {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  box-shadow: 6px 6px 0px 0px #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.artistic-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.artistic-btn {
+  background-color: #FFD700;
+  color: #000000;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  transition: all 0.15s ease-in-out;
+}
+
+.artistic-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px 0px #000000;
+  filter: brightness(1.05);
+}
+
+.artistic-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #000000;
+}
+
