@@ -1,7 +1,7 @@
 import { BookOpen, CheckCircle, Smartphone } from "lucide-react";
 import { motion } from "motion/react";
 // @ts-ignore
-import mockupImg from "../assets/images/conteudo_mockup_1782921467506.jpg";
+import mockupImg from "../assets/images/mockup_codigo_limite_1783931524097.jpg";
 
 interface SecondFoldProps {
   onCtaClick: () => void;
